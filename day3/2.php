@@ -8,10 +8,10 @@
 </head>
 <body>
     <?php
-    $array=array(-1,0,1,12,-100,1);
-    $arr = array(0);
-    
-    echo (min( array_diff($array,$arr)));
+    for($i=0;$i<=20;$i++){
+        $sum += $i;
+    }
+    echo "Sum of 0-20 are :- ".$sum;
     ?>
 </body>
 </html>

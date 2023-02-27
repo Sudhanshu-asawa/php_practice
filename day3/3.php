@@ -8,10 +8,13 @@
 </head>
 <body>
     <?php
-    $array=array(-1,0,1,12,-100,1);
-    $arr = array(0);
-    
-    echo (min( array_diff($array,$arr)));
+
+    $num = 10;
+    $fact = 1;
+    for($i=1;$i<=$num;$i++){
+        $fact *= $i;
+    }
+    echo "Factorial of $num is :- ".$fact;
     ?>
 </body>
 </html>

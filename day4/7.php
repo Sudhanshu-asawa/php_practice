@@ -8,10 +8,8 @@
 </head>
 <body>
     <?php
-    $array=array(-1,0,1,12,-100,1);
-    $arr = array(0);
-    
-    echo (min( array_diff($array,$arr)));
+    $text = "Sudhanshu asawa";
+    echo substr($text,-3);
     ?>
 </body>
 </html>

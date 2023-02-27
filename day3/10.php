@@ -8,10 +8,11 @@
 </head>
 <body>
     <?php
-    $array=array(-1,0,1,12,-100,1);
-    $arr = array(0);
+    $num=8;
     
-    echo (min( array_diff($array,$arr)));
+    for($i=1;$i<11;$i++){
+        echo "$i X $num = ".$i * $num."<br>"; 
+    }
     ?>
 </body>
 </html>

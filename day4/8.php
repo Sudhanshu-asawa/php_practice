@@ -8,10 +8,10 @@
 </head>
 <body>
     <?php
-    $array=array(-1,0,1,12,-100,1);
-    $arr = array(0);
-    
-    echo (min( array_diff($array,$arr)));
+    $text = "Sigma is the best";
+    $p="|the|";
+    echo "Original String :- $text <br>";
+    echo "After change:- ".preg_replace($p,"best",$text,1);
     ?>
 </body>
 </html>
