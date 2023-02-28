@@ -1,5 +1,5 @@
 <?php
-function listsort($arr){
+function bubblesort($arr){
     for($i=0;$i<count($arr)-1;$i++){
         for($j=0;$j<count($arr)-1;$j++){
             if($arr[$j]>$arr[$j+1]){
@@ -12,7 +12,9 @@ function listsort($arr){
     return $arr;
         
 }
-$arr = array(1,2,3,5,4,6,9,8,7,0);
+$arr=array(1,5,2,6,8,3,0);
+
 echo "Without sort :- ".implode("  ",$arr)."<br>";
-echo "After sort :- ".implode("  ",listsort($arr));
+echo "After Bubble Sort :- ".implode("  ",bubblesort($arr));
+
 ?>

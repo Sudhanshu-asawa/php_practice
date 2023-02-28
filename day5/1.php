@@ -1,11 +1,15 @@
 <?php
 function rev($str){
-    echo "Original string is :- ".$str."<br>";
-    echo "Reversed string is :- ".strrev($str);
+    $arr=array();
+    $len = strlen($str);
+    for($i=$len;$i>0;$i--){
+        $arr[$len-$i]=$str[$i-1];
+    }
 
+    return implode("", $arr);;
+    
 }
 $str="sudhanshu";
-
-rev($str);
-
+echo "Original string is :- ".$str."<br>";
+echo "Reversed string is :- ".rev($str);
 ?>
